@@ -38,8 +38,14 @@ const Home = () => {
 
   const navigate = useNavigate();
 
-  const handleNavigate = () => {
+  const handleNavigatePortrait = () => {
     navigate("/portrait");
+  };
+  const handleNavigateWedding = () => {
+    navigate("/weddings");
+  };
+  const handleNavigateProduct = () => {
+    navigate("/product");
   };
   return (
     <div className="home">
@@ -50,19 +56,19 @@ const Home = () => {
           <h1>Evoke Studio</h1>
           <div className="hero-images">
             <div className="first-row">
-              <img src={firstRow1} />
-              <img src={firstRow2} />
-              <img src={firstRow3} />
+              <img src={firstRow1} onClick={handleNavigatePortrait} />
+              <img src={firstRow2} onClick={handleNavigatePortrait} />
+              <img src={firstRow3} onClick={handleNavigatePortrait} />
             </div>
             <div className="second-row">
-              <img src={secondRow1} />
-              <img src={secondRow2} />
-              <img src={secondRow3} />
+              <img src={secondRow1} onClick={handleNavigateProduct} />
+              <img src={secondRow2} onClick={handleNavigateProduct} />
+              <img src={secondRow3} onClick={handleNavigateProduct} />
             </div>
             <div className="third-row">
-              <img src={thirdRow1} />
-              <img src={thirdRow3} />
-              <img src={thirdRow2} />
+              <img src={thirdRow1} onClick={handleNavigateWedding} />
+              <img src={thirdRow3} onClick={handleNavigateWedding} />
+              <img src={thirdRow2} onClick={handleNavigateWedding} />
             </div>
           </div>
         </div>
@@ -89,7 +95,7 @@ const Home = () => {
             </p>
           </div>
           <div className="button">
-            <button onClick={handleNavigate}>Explore More</button>
+            <button onClick={handleNavigatePortrait}>Explore More</button>
           </div>
         </div>
       </div>

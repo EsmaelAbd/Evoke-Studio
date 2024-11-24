@@ -6,6 +6,7 @@ import Wedding from "./pages/Wedding/Wedding";
 import About from "./pages/About/About";
 import NavBar from "./NavBar/NavBar";
 import Product from "./pages/Product/Product";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/product" element={<Product />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

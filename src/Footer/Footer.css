@@ -1,0 +1,18 @@
+.footer {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 3rem 0;
+}
+.footer .social-media {
+  display: flex;
+  gap: 15px;
+}
+.footer .social-media a {
+  color: white;
+  font-size: 1.5rem;
+  opacity: 70%;
+}

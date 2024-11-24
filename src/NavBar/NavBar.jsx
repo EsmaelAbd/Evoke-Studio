@@ -52,7 +52,7 @@ const NavBar = () => {
         </NavLink>
       </div>
       <div className="social-media">
-        <a href="">
+        <a href="https://www.facebook.com/profile.php?id=100064275182134">
           <FaFacebook />
         </a>
         <a href="">
