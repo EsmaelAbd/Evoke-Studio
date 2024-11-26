@@ -12,7 +12,7 @@ import image11 from "../../Gallery/evoke-resize/wedding/IMG_1606-1.jpg";
 import image12 from "../../Gallery/evoke-resize/wedding/IMG_1614-1.jpg";
 import image13 from "../../Gallery/evoke-resize/wedding/IMG_6402-11.jpg";
 import image14 from "../../Gallery/evoke-resize/wedding/IMG_6460-1.jpg";
-import image15 from "../../Gallery/evoke-resize/wedding/IMG_6469-11-1.jpg";
+// import image15 from "../../Gallery/evoke-resize/wedding/IMG_6469-11-1.jpg";
 import image16 from "../../Gallery/evoke-resize/wedding/IMG_6469-11.jpg";
 import image17 from "../../Gallery/evoke-resize/wedding/IMG_6521-1.jpg";
 import image18 from "../../Gallery/evoke-resize/wedding/IMG_7625-1.jpg";
@@ -36,7 +36,7 @@ export const WeddingSlides = [
   { id: 12, src: image12 },
   { id: 13, src: image13 },
   { id: 14, src: image14 },
-  { id: 15, src: image15 },
+  // { id: 15, src: image15 },
   { id: 16, src: image16 },
   { id: 17, src: image17 },
   { id: 18, src: image18 },

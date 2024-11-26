@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./PortraitImages.css";
 
 const PortraitImages = (props) => {
+  // ---------- this function relocates the scroll bar when navigating between links
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { PortraitSlides, onClick } = props;
 
   const handleClickImage = (index) => {

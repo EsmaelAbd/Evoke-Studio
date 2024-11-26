@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import { PortraitSlides } from "./PortraitSlides";
 import "yet-another-react-lightbox/styles.css";
@@ -13,6 +13,11 @@ import {
 import PortraitImages from "./portraitImages";
 
 const Portrait = () => {
+  // ---------- this function relocates the scroll bar when navigating between links
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // const [open, setopen] = useState(false);
   const [index, setindex] = useState(-1);
   const slideshowRef = React.useRef(null);

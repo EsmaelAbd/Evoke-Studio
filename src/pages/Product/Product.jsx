@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Product.css";
 import ProductImages from "./ProductImages";
 import { ProductSlides } from "./ProductSlides";
@@ -10,10 +10,18 @@ import {
   Counter,
   Fullscreen,
   Thumbnails,
+  Slideshow,
 } from "yet-another-react-lightbox/plugins";
 
 const Product = () => {
+  // ---------- this function relocates the scroll bar when navigating between links
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // const [open, setopen] = useState(false);
   const [index, setindex] = useState(-1);
+  const slideshowRef = React.useRef(null);
 
   return (
     <div>
@@ -28,7 +36,15 @@ const Product = () => {
         open={index >= 0}
         close={() => setindex(-1)}
         slides={ProductSlides}
-        plugins={[Counter, Fullscreen, Thumbnails]}
+        plugins={[Counter, Fullscreen, Thumbnails, Slideshow]}
+        slideshow={{ ref: slideshowRef }}
+        on={{
+          click: () => {
+            (slideshowRef.current?.playing
+              ? slideshowRef.current?.pause
+              : slideshowRef.current?.play)?.();
+          },
+        }}
       />
     </div>
   );

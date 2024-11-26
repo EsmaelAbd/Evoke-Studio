@@ -52,13 +52,16 @@ const NavBar = () => {
         </NavLink>
       </div>
       <div className="social-media">
-        <a href="https://www.facebook.com/profile.php?id=100064275182134">
+        <a
+          href="https://www.facebook.com/profile.php?id=100064275182134"
+          target="_blank"
+        >
           <FaFacebook />
         </a>
-        <a href="">
+        <a href="" target="_blank">
           <AiFillInstagram />
         </a>
-        <a href="">
+        <a href="" target="_blank">
           <FaTelegram />
         </a>
       </div>

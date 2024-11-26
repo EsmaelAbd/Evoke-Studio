@@ -16,6 +16,11 @@ import thirdRow2 from "../../Gallery/evoke-resize/wedding/IMG_1606-1.jpg";
 import thirdRow3 from "../../Gallery/evoke-resize/wedding/IMG_8057-1.jpg";
 
 const Home = () => {
+  // ---------- this function relocates the scroll bar when navigating between links
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // ---------- the function to show albums from each side
   useEffect(() => {
     const albumsSection = document.getElementById("album");
@@ -109,20 +114,9 @@ const Home = () => {
         <div className="title-and-button">
           <h1>
             Your wedding is a personal story that we are there to document.
+            <button onClick={handleNavigateWedding}>Explore more</button>
           </h1>
         </div>
-      </div>
-
-      {/* Fourth Section */}
-
-      <div className="book-now">
-        <div className="in-border">
-          <h1>Book your own portrait photogprahy session</h1>
-        </div>
-        <p>feel free to reach us through our social-media platform</p>
-        <p>
-          for more info <button>Click Here</button>
-        </p>
       </div>
     </div>
   );

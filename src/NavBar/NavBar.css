@@ -89,3 +89,18 @@
   font-size: 1.5rem;
   opacity: 70%;
 }
+
+@media (max-width: 576px) {
+  .navBar .logo p {
+    font-size: 1rem;
+  }
+
+  .navBar .nav-links {
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+  }
+  .navBar .social-media {
+    display: none;
+  }
+}
