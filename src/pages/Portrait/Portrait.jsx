@@ -10,7 +10,7 @@ import {
   Slideshow,
   Thumbnails,
 } from "yet-another-react-lightbox/plugins";
-import PortraitImages from "./portraitImages";
+import PortraitImages from "./PortraitImages";
 
 const Portrait = () => {
   // ---------- this function relocates the scroll bar when navigating between links
