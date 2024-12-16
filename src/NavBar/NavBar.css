@@ -69,16 +69,20 @@
 }
 
 @media (max-width: 576px) {
+  .navBar .logo {
+    margin: 1rem 0;
+  }
   .navBar .logo p {
+    font-size: 1.5rem;
+  }
+
+  .navBar .logo p span {
     font-size: 1rem;
   }
 
-  .navBar .nav-links {
+  .navBar .nav-links a {
     display: flex;
     font-size: 10px;
     gap: 10px;
-  }
-  .navBar .social-media {
-    display: none;
   }
 }

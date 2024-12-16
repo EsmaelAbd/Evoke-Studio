@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
-import { PortraitSlides } from "./PortraitSlides";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import {
   Counter,
   Fullscreen,
-  Slideshow,
   Thumbnails,
+  Slideshow,
 } from "yet-another-react-lightbox/plugins";
 import PortraitImages from "./PortraitImages";
+import { PortraitSlides } from "./PortraitSlides";
 
 const Portrait = () => {
   // ---------- this function relocates the scroll bar when navigating between links
@@ -23,7 +23,7 @@ const Portrait = () => {
   const slideshowRef = React.useRef(null);
 
   return (
-    <>
+    <div>
       <PortraitImages
         PortraitSlides={PortraitSlides}
         onClick={(currentIndex) => setindex(currentIndex)}
@@ -45,7 +45,7 @@ const Portrait = () => {
           },
         }}
       />
-    </>
+    </div>
   );
 };
 

@@ -79,3 +79,39 @@
   cursor: pointer;
   color: black;
 }
+
+@media (max-width: 576px) {
+  .home .first-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .home .first-row img {
+    margin: 1rem 0;
+  }
+
+  .home .second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .third-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .fourth-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .fifth-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
