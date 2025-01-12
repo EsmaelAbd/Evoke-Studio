@@ -69,12 +69,17 @@
 }
 
 @media (max-width: 768px) {
+  .home {
+    margin-top: 5rem;
+  }
+
   .home .first-row {
     display: flex;
     align-items: center;
     gap: 15px;
   }
   .home .first-row img {
+    width: 35%;
     margin: 1rem 0;
   }
 

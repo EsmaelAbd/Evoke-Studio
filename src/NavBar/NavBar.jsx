@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import { NavLink, useNavigate } from "react-router";
+import Hamburger from "hamburger-react";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -19,9 +20,10 @@ const NavBar = () => {
         </p>
       </div>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <Hamburger />
+        {/* <span></span>
         <span></span>
-        <span></span>
-        <span></span>
+        <span></span> */}
       </div>
       <div className={menuOpen ? "open" : "nav-links"}>
         <NavLink

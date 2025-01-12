@@ -7,10 +7,11 @@ import Second from "./Albums/Second/Second";
 import Seventh from "./Albums/Seventh/Seventh";
 import Sixth from "./Albums/Sixth/Sixth";
 import Third from "./Albums/Third/Third";
+import "./Portrait.css";
 
 const Portrait = () => {
   return (
-    <div>
+    <div className="portrait">
       <First />
       <Second />
       <Third />
