@@ -1,0 +1,25 @@
+.fifth-w-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.fifth-w-images-container .fifth-w-image {
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-w-images-container .fifth-w-image img {
+  width: 85%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .fifth-w-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

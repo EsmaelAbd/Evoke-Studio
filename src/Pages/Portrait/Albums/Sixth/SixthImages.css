@@ -1,0 +1,25 @@
+.sixth-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.sixth-images-container .sixth-image {
+  display: flex;
+  justify-content: center;
+}
+
+.sixth-images-container .sixth-image img {
+  width: 90%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .sixth-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

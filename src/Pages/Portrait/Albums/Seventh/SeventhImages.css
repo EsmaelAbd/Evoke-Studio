@@ -1,0 +1,25 @@
+.seventh-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.seventh-images-container .seventh-image {
+  display: flex;
+  justify-content: center;
+}
+
+.seventh-images-container .seventh-image img {
+  width: 90%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .seventh-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

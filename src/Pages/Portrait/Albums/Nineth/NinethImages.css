@@ -1,0 +1,25 @@
+.nineth-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.nineth-images-container .nineth-image {
+  display: flex;
+  justify-content: center;
+}
+
+.nineth-images-container .nineth-image img {
+  width: 90%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .nineth-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

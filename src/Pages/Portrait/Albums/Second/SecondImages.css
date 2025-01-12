@@ -1,0 +1,25 @@
+.second-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.second-images-container .second-image {
+  display: flex;
+  justify-content: center;
+}
+
+.second-images-container .second-image img {
+  width: 90%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .second-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

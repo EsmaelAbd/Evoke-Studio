@@ -1,0 +1,124 @@
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.8vw 3vw;
+  /* position: fixed; */
+  background-color: white;
+  font-size: 1rem;
+}
+
+.navBar .logo {
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.navBar .logo p span {
+  font-size: 1.3rem;
+}
+
+.navBar .logo::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navBar .logo:hover::before {
+  width: 100%; /* Expand to both left and right */
+  left: 0; /* Adjust the starting point */
+}
+
+.navBar .menu {
+  display: none;
+  position: absolute;
+  top: 1.3rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.navBar .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+
+.navBar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.navBar .nav-links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.navBar .nav-links a:active {
+  color: grey;
+}
+
+.navBar .nav-links a::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navBar .nav-links a:hover::before {
+  width: 100%; /* Expand to both left and right */
+  left: 0; /* Adjust the starting point */
+}
+
+@media (max-width: 768px) {
+  .navBar .logo {
+    margin: 1rem 0;
+  }
+  .navBar .logo p {
+    font-size: 1.5rem;
+  }
+
+  .navBar .logo p span {
+    font-size: 1rem;
+  }
+
+  .navBar .menu {
+    display: flex;
+  }
+
+  .navBar .open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .navBar .open a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navBar .nav-links a {
+    display: none;
+    /* font-size: 10px;
+    gap: 10px; */
+  }
+}

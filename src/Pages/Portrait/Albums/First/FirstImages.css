@@ -1,0 +1,25 @@
+.first-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 0 5rem;
+}
+
+.first-images-container .first-image {
+  display: flex;
+  justify-content: center;
+}
+
+.first-images-container .first-image img {
+  width: 90%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .first-images-container {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+}

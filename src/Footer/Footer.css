@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0 2rem 0;
+  margin-top: 5rem;
+  gap: 30px;
+}
+
+.footer a {
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: black;
+}
