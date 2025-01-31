@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 2.8vw 3vw;
-  /* position: fixed; */
   background-color: white;
   font-size: 1rem;
 }
@@ -42,7 +41,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 2.25rem;
-  height: 2rem;
 }
 
 /* .navBar .menu span {
@@ -137,6 +135,6 @@
   .navBar .open {
     transform: translateX(
       -65%
-    ); /* Slide the menu from right (-100%) to left (0) */
+    ); /* Slide the menu from right (-65%) to left (0) */
   }
 }

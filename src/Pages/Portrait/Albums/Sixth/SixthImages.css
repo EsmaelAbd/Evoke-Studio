@@ -20,6 +20,11 @@
 @media (max-width: 768px) {
   .sixth-images-container {
     margin: 4rem 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    gap: 10px;
+  }
+
+  .sixth-images-container .sixth-image img {
+    width: 100%;
   }
 }

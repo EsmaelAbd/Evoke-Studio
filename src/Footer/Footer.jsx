@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
-      <a href="" target="#">
+      <a href="https://www.instagram.com/e.v.k.studio/" target="#">
         <FaInstagram />
       </a>
       <a
@@ -14,7 +14,7 @@ const Footer = () => {
       >
         <FaFacebook />
       </a>
-      <a href="@Evoke_studio99" target="#">
+      <a href="https://t.me/Evoke_studio99" target="#">
         <FaTelegram />
       </a>
     </div>

@@ -20,6 +20,13 @@
 @media (max-width: 768px) {
   .fifth-w-images-container {
     margin: 4rem 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    gap: 10px;
+  }
+
+  .fifth-w-images-container .fifth-w-image img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
   }
 }

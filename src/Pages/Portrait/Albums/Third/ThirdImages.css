@@ -30,6 +30,15 @@
   .third-images-container {
     margin: 4rem auto;
     margin-left: 2.5rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    gap: 10px;
+  }
+
+  .third-images-container .third-image img {
+    width: 100%;
+  }
+
+  .third-images-container .third-image:nth-child(2) img {
+    width: 85%;
   }
 }

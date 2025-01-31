@@ -20,6 +20,11 @@
 @media (max-width: 768px) {
   .nineth-images-container {
     margin: 4rem 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    gap: 10px;
+  }
+
+  .nineth-images-container .nineth-image img {
+    width: 100%;
   }
 }

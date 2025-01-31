@@ -52,4 +52,16 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
+
+  .fourth-images-container .fourth-image img {
+    width: 70%;
+  }
+
+  .fourth-images-container .fourth-image:nth-child(1) img {
+    width: 60%;
+  }
+
+  .fourth-images-container .fourth-image:nth-child(4) img {
+    width: 60%;
+  }
 }
