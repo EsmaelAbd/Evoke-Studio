@@ -77,10 +77,10 @@
   .home .first-row {
     display: flex;
     align-items: center;
-    gap: 15px;
   }
   .home .first-row img {
     margin: 1rem 0;
+    width: 30%;
   }
 
   .home .second-row {
@@ -93,9 +93,21 @@
     align-items: center;
   }
 
+  .home .third-row img {
+    margin: 1rem 0;
+    width: 30%;
+  }
+
   .home .fourth-row {
     display: flex;
     align-items: center;
+  }
+  .home .fourth-row .right {
+    gap: 10px;
+  }
+
+  .home .fourth-row .right img {
+    width: 100%;
   }
 
   .home .fifth-row {
