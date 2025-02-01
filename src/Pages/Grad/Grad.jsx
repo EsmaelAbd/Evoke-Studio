@@ -11,6 +11,7 @@ import {
 } from "yet-another-react-lightbox/plugins";
 import GradImages from "./GradImages";
 import { GradSlides } from "./GradSlides";
+import "./Grad.css";
 
 const Grad = () => {
   useEffect(() => {
@@ -22,7 +23,7 @@ const Grad = () => {
   const slideshowRef = React.useRef(null);
 
   return (
-    <div>
+    <div className="grad">
       <GradImages
         GradSlides={GradSlides}
         onClick={(currentIndex) => setindex(currentIndex)}

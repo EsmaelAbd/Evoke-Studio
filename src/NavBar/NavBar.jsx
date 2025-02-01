@@ -69,13 +69,13 @@ const NavBar = () => {
         >
           Weddings
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to="/grad"
           className={({ isActive }) => (isActive ? "active" : "")}
           // onClick={() => setMenuOpen(!menuOpen)}
         >
           Graduation
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to="/about"
           className={({ isActive }) => (isActive ? "active" : "")}
