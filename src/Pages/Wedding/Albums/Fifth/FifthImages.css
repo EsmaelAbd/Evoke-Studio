@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
   margin: 7rem 0;
   padding: 0 5rem;
 }
@@ -12,7 +13,7 @@
 }
 
 .fifth-w-images-container .fifth-w-image img {
-  width: 75%;
+  width: 95%;
   cursor: pointer;
   border-radius: 3px;
 }
