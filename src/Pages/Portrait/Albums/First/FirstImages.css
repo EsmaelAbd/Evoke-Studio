@@ -17,6 +17,10 @@
   border-radius: 3px;
 }
 
+.first-images-container .first-image:nth-child(2) img {
+  margin: 0 5rem 0 5rem;
+}
+
 @media (max-width: 768px) {
   .first-images-container {
     margin: 4rem 0;

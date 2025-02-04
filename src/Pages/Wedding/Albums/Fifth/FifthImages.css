@@ -12,9 +12,17 @@
 }
 
 .fifth-w-images-container .fifth-w-image img {
-  width: 85%;
+  width: 75%;
   cursor: pointer;
   border-radius: 3px;
+}
+
+.fifth-w-images-container .fifth-w-image:nth-child(1) {
+  justify-content: end;
+}
+
+.fifth-w-images-container .fifth-w-image:nth-child(3) {
+  justify-content: start;
 }
 
 @media (max-width: 768px) {

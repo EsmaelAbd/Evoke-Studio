@@ -60,7 +60,7 @@ const NavBar = () => {
           className={({ isActive }) => (isActive ? "active" : "")}
           // onClick={() => setMenuOpen(!menuOpen)}
         >
-          Portrait
+          Portraits
         </NavLink>
         <NavLink
           to="/wedding"
@@ -77,11 +77,11 @@ const NavBar = () => {
           Graduation
         </NavLink> */}
         <NavLink
-          to="/about"
+          to="/contact"
           className={({ isActive }) => (isActive ? "active" : "")}
           // onClick={() => setMenuOpen(!menuOpen)}
         >
-          About
+          Contact
         </NavLink>
       </div>
     </div>

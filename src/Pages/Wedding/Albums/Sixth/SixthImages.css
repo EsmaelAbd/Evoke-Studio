@@ -17,19 +17,23 @@
 }
 
 .sixth-w-images-container .sixth-w-image img {
-  width: 100%;
+  width: 90%;
   cursor: pointer;
   border-radius: 3px;
 }
 
 .sixth-w-images-container .sixth-w-image:nth-child(1) {
   grid-area: 1 / 1 / 2 / 2;
+  justify-content: end;
 }
 .sixth-w-images-container .sixth-w-image:nth-child(2) {
   grid-area: 2 / 1 / 3 / 2;
+  justify-content: end;
 }
+
 .sixth-w-images-container .sixth-w-image:nth-child(3) {
   grid-area: 1 / 2 / 3 / 3;
+  justify-content: start;
 }
 
 @media (max-width: 768px) {
